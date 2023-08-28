@@ -1,0 +1,48 @@
+@import 'mixin';
+@import 'cover';
+@import 'bases';
+@font-face {
+    font-family: 'AlibabaPuHuiTiR';
+    src: url('@/assets/fonts/alibabaPuHuiTi/Alibaba-PuHuiTi-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'AlibabaPuHuiTiM';
+    src: url('@/assets/fonts/alibabaPuHuiTi/Alibaba-PuHuiTi-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'AlibabaPuHuiTiB';
+    src: url('@/assets/fonts/alibabaPuHuiTi/Alibaba-PuHuiTi-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'AlibabaPuHuiTiH';
+    src: url('@/assets/fonts/alibabaPuHuiTi/Alibaba-PuHuiTi-Heavy.ttf');
+}
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('@/assets/fonts/BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url('@/assets/fonts/emergencySupport/Bebas.TTF');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+    margin-bottom: 0 !important;
+}
+
+i {
+    font-style: normal;
+}
+
+

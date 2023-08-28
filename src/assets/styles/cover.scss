@@ -1,0 +1,83 @@
+@import 'mixin';
+
+iframe {
+    border: none;
+}
+
+// 高德地图样式修改 start
+.amap-controls {
+    .amap-zoomcontrol {
+        transform: rotate(90deg);
+        border-radius: 10px;
+    }
+
+    .amap-zoom-touch-plus {
+        > div {
+            color: #0d1722;
+        }
+    }
+
+    .amap-zoom-touch-minus {
+        padding-left: 5px;
+        border-radius: 10px;
+
+        > div {
+            transform: rotate(90deg);
+            color: #0d1722;
+        }
+    }
+
+    .amap-scalecontrol {
+        .amap-scale-text {
+            font-size: 14px;
+            font-family: PingFangSC, PingFangSC-Regular;
+            color: #808080;
+            width: 84.0397px !important;
+        }
+
+        .amap-scale-line {
+            .amap-scale-edgeleft,
+            .amap-scale-middle,
+            .amap-scale-edgeright {
+                background-color: #979797;
+            }
+
+            .amap-scale-edgeright {
+                left: 77.0397px !important;
+            }
+
+            .amap-scale-middle {
+                top: 4px;
+                width: 76.0397px !important;
+            }
+        }
+    }
+}
+
+.amap-marker-content {
+    white-space: normal !important;
+}
+
+.amap-logo {
+    display: none !important;
+}
+
+.amap-copyright {
+    display: none !important;
+}
+
+.amap-info-content {
+    border-radius: 10px;
+    padding: 12px;
+
+    .amap-info-close {
+        right: 10px;
+        top: 15px;
+        font-size: 22px;
+        color: #0d1722;
+    }
+}
+
+// 高德地图样式修改 end
+
+
